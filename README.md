@@ -18,7 +18,7 @@ myHeatmap(m)
 
 General Usage
 ------------
-Once the myHeatmap source is loaded by calling ```source('<path_to_file>/myHeatmap2.R')```, and the plottable data matrix ```m``` has been loaded, call ```myHeatmap(m)``` to draw the plot.
+Once the myHeatmap source is loaded by calling ```source('<path_to_file>/myHeatmap2.R')```, and the plottable data matrix ```m``` has been loaded, call ```myHeatmap(m)``` to draw the plot. The row and column captions are drawn from the data matrix's row and column names, using ```rownames(m)``` and  ```colnames(m)```.
 
 Available Parameters and Their Defaults
 ---------------------------------------
